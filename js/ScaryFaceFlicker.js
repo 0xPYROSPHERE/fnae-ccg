@@ -4,7 +4,7 @@ const getBasePath = () => {
     if (currentPath.includes('/FNAE-HTML5-1.2.3/')) {
         return '/FNAE-HTML5-1.2.3/';
     }
-    return './';
+    return '/';
 };
 
 const basePath = getBasePath();
