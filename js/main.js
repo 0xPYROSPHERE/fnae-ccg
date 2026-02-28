@@ -115,7 +115,8 @@ function updatePreloadProgress(progress) {
 
 // 预加载所有游戏资源
 async function preloadGameAssets() {
-    const basePath = ''
+    const basePath = '';
+    console.log('debug');
     
     // 定义所有需要预加载的资源
     const imagePaths = [
